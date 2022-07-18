@@ -16,7 +16,10 @@
     "websocket": "^1.0.34"
   },
   "pkg": {
-    "assets": "assets/**/*",
+    "assets": [
+      "assets/**/*",
+      "native/**/*"
+    ],
     "targets": [
       "latest-win-x64"
     ],
